@@ -18,10 +18,24 @@ This week, you'll build an interesting project: a RESTful API for a URL shortene
 - [x] **URL Redirection**: When a shortened URL is accessed in the browser, it should redirect to the original URL (using a simple redirect web route, not an API route).
 
 ### Version 2 (v2):
-- [ ] **Keep All v1 Functionalities**
-- [ ] **Visit Count**: Track and display the visit count for each short URL.
+- [x] **Keep All v1 Functionalities**
+- [x] **Visit Count**: Track and display the visit count for each short URL.
 
+## Running the Project
 
-## Additional Notes:
-- No UI implementation is required.
-- Manage multiple versions of the API.
+Clone the repository 
+```
+git clone https://github.com/jahid32/shortify.git
+
+cd shortify
+
+composer install
+
+php artisan serve
+```
+
+### Insomnia Export
+Insomnia_2024-11-06.json
+
+### API Doc
+http://localhost/docs/api
